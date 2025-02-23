@@ -1,21 +1,21 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 
-import { TabsPage } from './tabs.page';
+import { SparkPage } from './spark.page';
 
-describe('TabsPage', () => {
-  let component: TabsPage;
-  let fixture: ComponentFixture<TabsPage>;
+describe('SparkPage', () => {
+  let component: SparkPage;
+  let fixture: ComponentFixture<SparkPage>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TabsPage],
+      imports: [SparkPage],
       providers: [provideRouter([])]
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TabsPage);
+    fixture = TestBed.createComponent(SparkPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
